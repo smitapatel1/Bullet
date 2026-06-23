@@ -1,7 +1,10 @@
 #!/bin/bash
 set -e
 
+export PATH="/opt/venv/bin:$PATH"
+
 cd /app/backend
+
 uvicorn app.main:app \
     --host 0.0.0.0 \
     --port 8000 &
