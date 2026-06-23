@@ -16,29 +16,7 @@ import ReactFlow, {
 } from "reactflow";
 import "reactflow/dist/style.css";
 import { motion } from "framer-motion";
-import {
-  Workflow as WorkflowIcon,
-  Plus,
-  Save,
-  Play,
-  Undo,
-  Redo,
-  Share,
-  Settings,
-  Zap,
-  Globe,
-  Mouse,
-  Keyboard,
-  Clock,
-  Database,
-  FileJson,
-  Mail,
-  Send,
-  Webhook,
-  Filter,
-  Code,
-  AlertCircle,
-} from "lucide-react";
+import { Workflow as WorkflowIcon, Plus, Save, Play, Undo, Redo, Share, Settings, Zap, Globe, Mouse, Keyboard, Clock, Database, File as FileJson, Mail, Send, Webhook, ListFilter as Filter, Code, CircleAlert as AlertCircle } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

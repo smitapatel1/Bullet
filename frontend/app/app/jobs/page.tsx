@@ -2,22 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  PlayCircle,
-  Pause,
-  RefreshCw,
-  Clock,
-  CheckCircle2,
-  XCircle,
-  AlertCircle,
-  MoreHorizontal,
-  Eye,
-  RotateCcw,
-  Trash2,
-  Filter,
-  Calendar,
-  Activity,
-} from "lucide-react";
+import { CirclePlay as PlayCircle, Pause, RefreshCw, Clock, CircleCheck as CheckCircle2, Circle as XCircle, CircleAlert as AlertCircle, MoveHorizontal as MoreHorizontal, Eye, RotateCcw, Trash2, ListFilter as Filter, Calendar, Activity } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

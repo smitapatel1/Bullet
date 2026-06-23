@@ -3,19 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  FolderKanban,
-  Plus,
-  Search,
-  Filter,
-  MoreHorizontal,
-  PlayCircle,
-  Calendar,
-  Tag,
-  Trash2,
-  Edit,
-  Copy,
-} from "lucide-react";
+import { FolderKanban, Plus, Search, ListFilter as Filter, MoveHorizontal as MoreHorizontal, CirclePlay as PlayCircle, Calendar, Tag, Trash2, CreditCard as Edit, Copy } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

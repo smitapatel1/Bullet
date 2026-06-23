@@ -3,18 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Bell,
-  Search,
-  Moon,
-  Sun,
-  Command,
-  LogOut,
-  User,
-  Settings,
-  ChevronDown,
-  Workspace,
-} from "lucide-react";
+import { Bell, Search, Moon, Sun, Command, LogOut, User, Settings, ChevronDown, Space as Workspace } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

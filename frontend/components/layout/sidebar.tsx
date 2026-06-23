@@ -3,23 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import {
-  LayoutDashboard,
-  FolderKanban,
-  PlayCircle,
-  Network,
-  Store,
-  Settings,
-  Users,
-  BarChart3,
-  FileJson,
-  Key,
-  Bell,
-  Zap,
-  Workflow,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { LayoutDashboard, FolderKanban, CirclePlay as PlayCircle, Network, Store, Settings, Users, ChartBar as BarChart3, File as FileJson, Key, Bell, Zap, Workflow, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAppStore } from "@/lib/store";
 import { Button } from "@/components/ui/button";

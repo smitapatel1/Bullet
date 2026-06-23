@@ -2,19 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Key,
-  Plus,
-  Copy,
-  Eye,
-  EyeOff,
-  Trash2,
-  Shield,
-  Clock,
-  Calendar,
-  AlertCircle,
-  CheckCircle2,
-} from "lucide-react";
+import { Key, Plus, Copy, Eye, EyeOff, Trash2, Shield, Clock, Calendar, CircleAlert as AlertCircle, CircleCheck as CheckCircle2 } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

@@ -2,19 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Store,
-  Search,
-  Filter,
-  Star,
-  Download,
-  Users,
-  Tag,
-  Check,
-  ExternalLink,
-  LayoutTemplate,
-  Sparkles,
-} from "lucide-react";
+import { Store, Search, ListFilter as Filter, Star, Download, Users, Tag, Check, ExternalLink, LayoutTemplate, Sparkles } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

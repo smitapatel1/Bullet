@@ -2,18 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Users,
-  UserPlus,
-  Shield,
-  Clock,
-  Mail,
-  MoreHorizontal,
-  Edit,
-  Trash2,
-  Crown,
-  UserCheck,
-} from "lucide-react";
+import { Users, UserPlus, Shield, Clock, Mail, MoveHorizontal as MoreHorizontal, CreditCard as Edit, Trash2, Crown, UserCheck } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

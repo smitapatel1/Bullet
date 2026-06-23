@@ -2,20 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Database,
-  Download,
-  Trash2,
-  Eye,
-  Search,
-  Filter,
-  MoreHorizontal,
-  FileJson,
-  FileSpreadsheet,
-  Table,
-  Calendar,
-  Folder,
-} from "lucide-react";
+import { Database, Download, Trash2, Eye, Search, ListFilter as Filter, MoveHorizontal as MoreHorizontal, File as FileJson, FileSpreadsheet, Table, Calendar, Folder } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";

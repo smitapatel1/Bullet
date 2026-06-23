@@ -2,19 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import {
-  Activity,
-  PlayCircle,
-  CheckCircle2,
-  XCircle,
-  Clock,
-  Zap,
-  TrendingUp,
-  TrendingDown,
-  FileJson,
-  Users,
-  Workspace,
-} from "lucide-react";
+import { Activity, CirclePlay as PlayCircle, CircleCheck as CheckCircle2, Circle as XCircle, Clock, Zap, TrendingUp, TrendingDown, File as FileJson, Users, Space as Workspace } from "lucide-react";
 import ReactECharts from "echarts-for-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";

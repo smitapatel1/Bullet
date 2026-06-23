@@ -11,23 +11,7 @@ import {
   CommandList,
   CommandSeparator,
 } from "@/components/ui/command";
-import {
-  LayoutDashboard,
-  FolderKanban,
-  PlayCircle,
-  Network,
-  Store,
-  Settings,
-  Users,
-  BarChart3,
-  FileJson,
-  Key,
-  Bell,
-  Plus,
-  Zap,
-  Workflow,
-  File,
-} from "lucide-react";
+import { LayoutDashboard, FolderKanban, CirclePlay as PlayCircle, Network, Store, Settings, Users, ChartBar as BarChart3, File as FileJson, Key, Bell, Plus, Zap, Workflow, File } from "lucide-react";
 
 interface CommandPaletteProps {
   open: boolean;
