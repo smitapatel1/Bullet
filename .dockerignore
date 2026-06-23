@@ -1,6 +1,13 @@
 .git
-node_modules
+.gitignore
+
 frontend/node_modules
 frontend/.next
-__pycache__
-*.pyc
+
+backend/__pycache__
+backend/**/*.pyc
+
+.env
+.env.*
+
+README.md
